@@ -1,0 +1,35 @@
+{
+  "name": "@carlosvergarachile/shared-libs",
+  "version": "1.0.0",
+  "description": "Shared libraries for 25-repository ecosystem",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "webpack",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarlosVergaraChile/shared-libs"
+  },
+  "keywords": ["education", "ecosystem", "shared-libs"],
+  "author": "CarlosVergaraChile",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.2.0",
+    "webpack": "^5.88.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.5.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
